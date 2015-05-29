@@ -1,0 +1,401 @@
+May 29, 2015 5:55:25 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: start assignData()
+May 29, 2015 5:55:25 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: end assignData()
+May 29, 2015 5:55:26 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC01_VerifyLogin
+INFO: Test Execution Started- TC01_VerifyLogin
+May 29, 2015 5:55:26 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: start inputJson function
+May 29, 2015 5:55:26 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: end inputJson function
+May 29, 2015 5:55:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+May 29, 2015 5:55:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+May 29, 2015 5:55:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+May 29, 2015 5:55:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+May 29, 2015 5:55:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"sessionId": "td76e4805-b52f-42cf-9b7f-488af37a66f1",
+"studentUse": true,
+"user": {
+"districtId": 1,
+"firstName": "AShish",
+"id": 48,
+"lastName": "K",
+"readingLevel": "Lexile",
+"role": "teacher",
+"schools": [
+{
+"id": 1,
+"name": "Jones School",
+"sso": false
+}
+],
+"sisId": 0,
+"sourcceId": "0",
+"sourceType": null,
+"studentUse": false,
+"title": "Mr.",
+"userId": 48,
+"userName": "ashish.khatri@synechron.com"
+}
+},
+"errors": [],
+"message": "Login successful",
+"metaData": null
+}
+May 29, 2015 5:55:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+May 29, 2015 5:55:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+May 29, 2015 5:55:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+May 29, 2015 5:55:29 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC01_VerifyLogin
+INFO: Test Execution End- TC01_VerifyLogin
+May 29, 2015 5:55:29 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC02_PostSections
+INFO: Test Execution Started- TC02_PostSections
+May 29, 2015 5:55:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: start inputJson function
+May 29, 2015 5:55:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: end inputJson function
+May 29, 2015 5:55:31 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+May 29, 2015 5:55:31 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: null
+May 29, 2015 5:55:31 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC02_PostSections
+INFO: Test Execution End- TC02_PostSections
+May 29, 2015 5:55:31 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC03_GetSectionsClasscodes
+INFO: Test Execution Started- TC03_GetSectionsClasscodes
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"classCode": "K16",
+"features": {
+"read-to-me": true,
+"activities": true,
+"video": true
+},
+"grade": "Grade 1",
+"grades": [],
+"id": 232,
+"levelHigh": "M",
+"levelLow": "E",
+"name": "Grade 1",
+"primaryTeacher": "Ashish K",
+"primaryTeacherId": 123,
+"students": [
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1006",
+"login": null,
+"name": "s1",
+"password": "DOLL",
+"readingGroup": {
+"id": 81,
+"name": "NewGroup9"
+},
+"userName": "s1-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1015",
+"login": null,
+"name": "s10",
+"password": "HAIR",
+"readingGroup": null,
+"userName": "s10-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1016",
+"login": null,
+"name": "s11",
+"password": "GATE",
+"readingGroup": null,
+"userName": "s11-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1017",
+"login": null,
+"name": "s12",
+"password": "TEAM",
+"readingGroup": null,
+"userName": "s12-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1018",
+"login": null,
+"name": "s13",
+"password": "COIN",
+"readingGroup": null,
+"userName": "s13-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1019",
+"login": null,
+"name": "s14",
+"password": "CLUB",
+"readingGroup": null,
+"userName": "s14-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1020",
+"login": null,
+"name": "s15",
+"password": "BEAN",
+"readingGroup": null,
+"userName": "s15-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1021",
+"login": null,
+"name": "s16",
+"password": "BARK",
+"readingGroup": null,
+"userName": "s16-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1022",
+"login": null,
+"name": "s17",
+"password": "CLUB",
+"readingGroup": null,
+"userName": "s17-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1023",
+"login": null,
+"name": "s18",
+"password": "SHIP",
+"readingGroup": null,
+"userName": "s18-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1024",
+"login": null,
+"name": "s19",
+"password": "HAWK",
+"readingGroup": {
+"id": 81,
+"name": "NewGroup9"
+},
+"userName": "s19-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1007",
+"login": null,
+"name": "s2",
+"password": "COIN",
+"readingGroup": null,
+"userName": "s2-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1025",
+"login": null,
+"name": "s20",
+"password": "CAMP",
+"readingGroup": null,
+"userName": "s20-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1008",
+"login": null,
+"name": "s3",
+"password": "SHIP",
+"readingGroup": null,
+"userName": "s3-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1009",
+"login": null,
+"name": "s4",
+"password": "CAVE",
+"readingGroup": null,
+"userName": "s4-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1010",
+"login": null,
+"name": "s5",
+"password": "FARM",
+"readingGroup": {
+"id": 81,
+"name": "NewGroup9"
+},
+"userName": "s5-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1011",
+"login": null,
+"name": "s6",
+"password": "WISH",
+"readingGroup": null,
+"userName": "s6-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1012",
+"login": null,
+"name": "s7",
+"password": "ROOM",
+"readingGroup": null,
+"userName": "s7-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1013",
+"login": null,
+"name": "s8",
+"password": "BEAR",
+"readingGroup": null,
+"userName": "s8-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1361",
+"login": null,
+"name": "s89",
+"password": "BABY",
+"readingGroup": null,
+"userName": "s89-k16"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1014",
+"login": null,
+"name": "s9",
+"password": "CITY",
+"readingGroup": null,
+"userName": "s9-k16"
+}
+],
+"teacherType": "primary"
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC03_GetSectionsClasscodes
+INFO: Test Execution End- TC03_GetSectionsClasscodes
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC04_TeacherLogout
+INFO: Test Execution Started- TC03_TeacherLogout
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": null,
+"errors": [],
+"message": "Logout successful",
+"metaData": null
+}
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC04_TeacherLogout
+INFO: Test Execution End- TC03_TeacherLogout
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnDisplayReasult
+INFO: start fnDisplayReasult()
+May 29, 2015 5:55:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnDisplayReasult
+INFO: end fnDisplayReasult()

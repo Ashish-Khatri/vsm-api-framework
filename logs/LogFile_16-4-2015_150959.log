@@ -1,0 +1,47 @@
+Apr 16, 2015 3:09:59 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: start assignData()
+Apr 16, 2015 3:09:59 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: end assignData()
+Apr 16, 2015 3:09:59 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Apr 16, 2015 3:09:59 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC03_VerifyCollectionWhenClickOnAll
+INFO: Test Execution Started- TC03_VerifyCollectionWhenClickOnAll
+Apr 16, 2015 3:10:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Apr 16, 2015 3:10:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Apr 16, 2015 3:10:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Apr 16, 2015 3:10:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Apr 16, 2015 3:10:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 401,
+"data": null,
+"errors": [],
+"message": "You are not currently logged in",
+"metaData": null
+}
+Apr 16, 2015 3:10:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Apr 16, 2015 3:10:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-  "code": 400, and Actual is-"code": 401,
+Apr 16, 2015 3:10:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-  "errors": [ and Actual is-"errors": [],
+Apr 16, 2015 3:10:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    { and Actual is-"message": "You are not currently logged in",
+Apr 16, 2015 3:10:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-      "data": { and Actual is-"metaData": null
+Apr 16, 2015 3:10:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "message": "Invalid section id", and Actual is-}
+Apr 16, 2015 3:10:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Apr 16, 2015 3:10:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Apr 16, 2015 3:10:01 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC03_VerifyCollectionWhenClickOnAll
+INFO: Test Execution End- TC03_VerifyCollectionWhenClickOnAll
+Apr 16, 2015 3:10:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnDisplayReasult
+INFO: start fnDisplayReasult()
+Apr 16, 2015 3:10:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnDisplayReasult
+INFO: end fnDisplayReasult()

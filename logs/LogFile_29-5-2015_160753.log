@@ -1,0 +1,340 @@
+May 29, 2015 4:07:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: start assignData()
+May 29, 2015 4:07:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: end assignData()
+May 29, 2015 4:07:55 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC01_VerifyLogin
+INFO: Test Execution Started- TC01_VerifyLogin
+May 29, 2015 4:07:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: start inputJson function
+May 29, 2015 4:07:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: end inputJson function
+May 29, 2015 4:07:59 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"sessionId": "t7bcd2d22-ff26-4c63-a797-8a48fd327497",
+"studentUse": true,
+"user": {
+"districtId": 1,
+"firstName": "AShish",
+"id": 48,
+"lastName": "K",
+"readingLevel": "Lexile",
+"role": "teacher",
+"schools": [
+{
+"id": 1,
+"name": "Jones School",
+"sso": false
+}
+],
+"sisId": 0,
+"sourcceId": "0",
+"sourceType": null,
+"studentUse": false,
+"title": "Mr.",
+"userId": 48,
+"userName": "ashish.khatri@synechron.com"
+}
+},
+"errors": [],
+"message": "Login successful",
+"metaData": null
+}
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "studentUse": false, and Actual is-"studentUse": true,
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "firstName": "Theron", and Actual is-"firstName": "AShish",
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "id": 8, and Actual is-"id": 48,
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "lastName": "t7", and Actual is-"lastName": "K",
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "readingLevel": "Guided Reading Level", and Actual is-"readingLevel": "Lexile",
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                    "name": "Jones School" and Actual is-"name": "Jones School",
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                } and Actual is-"sso": false
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            ], and Actual is-}
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "sisId": 0, and Actual is-],
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "sourcceId": "0", and Actual is-"sisId": 0,
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "sourceType": null, and Actual is-"sourcceId": "0",
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "studentUse": false, and Actual is-"sourceType": null,
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "title": "Mr.", and Actual is-"studentUse": false,
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "userId": 8, and Actual is-"title": "Mr.",
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "userName": "theron_t7@storiaschool.com" and Actual is-"userId": 48,
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        } and Actual is-"userName": "ashish.khatri@synechron.com"
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    }, and Actual is-}
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "errors": [], and Actual is-},
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "message": "Login successful", and Actual is-"errors": [],
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "metaData": null and Actual is-"message": "Login successful",
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-} and Actual is-"metaData": null
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC01_VerifyLogin
+INFO: Test Execution End- TC01_VerifyLogin
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC02_PostSections
+INFO: Test Execution Started- TC02_PostSections
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: start inputJson function
+May 29, 2015 4:08:00 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: end inputJson function
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"classCode": "K35",
+"features": null,
+"grade": "Grade 4",
+"grades": null,
+"id": 558,
+"levelHigh": null,
+"levelLow": null,
+"name": "ClassViaAPI",
+"primaryTeacher": null,
+"primaryTeacherId": null,
+"students": [
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1845",
+"login": null,
+"name": "Alexandra",
+"password": "BAND",
+"readingGroup": null,
+"userName": "alexandra-k35"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1846",
+"login": null,
+"name": "Chloe",
+"password": "MASK",
+"readingGroup": null,
+"userName": "chloe-k35"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1847",
+"login": null,
+"name": "Daniel",
+"password": "WOLF",
+"readingGroup": null,
+"userName": "daniel-k35"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1848",
+"login": null,
+"name": "Eric",
+"password": "GATE",
+"readingGroup": null,
+"userName": "eric-k35"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1849",
+"login": null,
+"name": "Ethan",
+"password": "GATE",
+"readingGroup": null,
+"userName": "ethan-k35"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1850",
+"login": null,
+"name": "Gabrielle",
+"password": "HEAD",
+"readingGroup": null,
+"userName": "gabrielle-k35"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1851",
+"login": null,
+"name": "Jada",
+"password": "TEAM",
+"readingGroup": null,
+"userName": "jada-k35"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1852",
+"login": null,
+"name": "Jason",
+"password": "BAND",
+"readingGroup": null,
+"userName": "jason-k35"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1853",
+"login": null,
+"name": "Jayden",
+"password": "BEAN",
+"readingGroup": null,
+"userName": "jayden-k35"
+}
+],
+"teacherType": null
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "classCode": "K12", and Actual is-"classCode": "K35",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "id": 557, and Actual is-"id": 558,
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "id": "1836", and Actual is-"id": "1845",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "password": "BIKE", and Actual is-"password": "BAND",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "userName": "alexandra-k12" and Actual is-"userName": "alexandra-k35"
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "id": "1837", and Actual is-"id": "1846",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "password": "BAND", and Actual is-"password": "MASK",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "userName": "chloe-k12" and Actual is-"userName": "chloe-k35"
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "id": "1838", and Actual is-"id": "1847",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "password": "LION", and Actual is-"password": "WOLF",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "userName": "daniel-k12" and Actual is-"userName": "daniel-k35"
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "id": "1839", and Actual is-"id": "1848",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "password": "RAKE", and Actual is-"password": "GATE",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "userName": "eric-k12" and Actual is-"userName": "eric-k35"
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "id": "1840", and Actual is-"id": "1849",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "password": "GIFT", and Actual is-"password": "GATE",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "userName": "ethan-k12" and Actual is-"userName": "ethan-k35"
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "id": "1841", and Actual is-"id": "1850",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "password": "CAKE", and Actual is-"password": "HEAD",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "userName": "gabrielle-k12" and Actual is-"userName": "gabrielle-k35"
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "id": "1842", and Actual is-"id": "1851",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "password": "BABY", and Actual is-"password": "TEAM",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "userName": "jada-k12" and Actual is-"userName": "jada-k35"
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "id": "1843", and Actual is-"id": "1852",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "password": "TRIP", and Actual is-"password": "BAND",
+May 29, 2015 4:08:01 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "userName": "jason-k12" and Actual is-"userName": "jason-k35"
+May 29, 2015 4:08:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "id": "1844", and Actual is-"id": "1853",
+May 29, 2015 4:08:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "password": "ROOM", and Actual is-"password": "BEAN",
+May 29, 2015 4:08:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "userName": "jayden-k12" and Actual is-"userName": "jayden-k35"
+May 29, 2015 4:08:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+May 29, 2015 4:08:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+May 29, 2015 4:08:02 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC02_PostSections
+INFO: Test Execution End- TC01_VerifyLogin
+May 29, 2015 4:08:02 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC03_TeacherLogout
+INFO: Test Execution Started- TC03_TeacherLogout
+May 29, 2015 4:08:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+May 29, 2015 4:08:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+May 29, 2015 4:08:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+May 29, 2015 4:08:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+May 29, 2015 4:08:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": null,
+"errors": [],
+"message": "Logout successful",
+"metaData": null
+}
+May 29, 2015 4:08:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+May 29, 2015 4:08:02 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC03_TeacherLogout
+INFO: Test Execution End- TC15_TeacherLogout
+May 29, 2015 4:08:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnDisplayReasult
+INFO: start fnDisplayReasult()
+May 29, 2015 4:08:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnDisplayReasult
+INFO: end fnDisplayReasult()

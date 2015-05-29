@@ -1,0 +1,15 @@
+{
+    "code": 400,
+    "data": null,
+    "errors": [
+        {
+            "data": {
+                "message": "Invalid section id",
+                "field": "sectionId"
+            },
+            "type": "fielderror"
+        }
+    ],
+    "message": "Data validation error",
+    "metaData": null
+}

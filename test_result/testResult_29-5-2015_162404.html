@@ -1,0 +1,391 @@
+<html>
+<head>
+	<title>OUP diffs</title>
+	<style media="screen" type="text/css">
+		//#img { height:200px;width:240px;	vertical-align: text-top; }
+		img { height:50%;width:50%;	vertical-align: text-top; align:middle; }
+		.Fail { background-color: red; }
+		.Pass { background-color: darkgreen; }
+		body { font-family: 'Open Sans', sans-serif; }
+		
+	</style>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+</head>
+<body bgcolor=lightgrey>
+
+<h3 align="center">API Test Case Execution Report</h3>
+<h5 align="center">29-5-2015_162404</h5>
+<table border="1" align="center">
+	<tr>
+		<th>Test Suite Name</th>
+		<th>Total No. Of Test Cases</th>
+		<th>Total Pass Test Count</th>
+		<th>Total Fail Test Count</th>	
+		<th>Overall Result</th>			
+	</tr>
+	<tr>
+		<td></td>
+		<td>3</td>
+		<td>1</td>
+		<td>2</td>	
+		<td class=Fail>Fail</td>
+
+	</tr>
+</table>
+<p></p>
+<table border="1" align="center">
+	<tr>
+		<th>Test Case Name</th>
+		<th>Result</th>		
+	</tr>
+	<tr>
+<td>TC01_VerifyLogin</td>
+<td class=Fail>Fail</td>
+<tr>
+<tr>
+<td>TC02_PostSections</td>
+<td class=Fail>Fail</td>
+<tr>
+<tr>
+<td>TC03_TeacherLogout</td>
+<td class=Pass>Pass</td>
+<tr>
+
+</table>
+<p></p>
+<button onclick="showLog()">LOG</button>
+<div id="content" style="display: none;">
+  May 29, 2015 4:24:04 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: start assignData()
+May 29, 2015 4:24:04 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: end assignData()
+May 29, 2015 4:24:05 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC01_VerifyLogin
+INFO: Test Execution Started- TC01_VerifyLogin
+May 29, 2015 4:24:05 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: start inputJson function
+May 29, 2015 4:24:05 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: end inputJson function
+May 29, 2015 4:24:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+May 29, 2015 4:24:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+May 29, 2015 4:24:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+May 29, 2015 4:24:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+May 29, 2015 4:24:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"sessionId": "t0832530c-ec2a-4877-b1c3-3e77f02baed6",
+"studentUse": true,
+"user": {
+"districtId": 1,
+"firstName": "AShish",
+"id": 48,
+"lastName": "K",
+"readingLevel": "Lexile",
+"role": "teacher",
+"schools": [
+{
+"id": 1,
+"name": "Jones School",
+"sso": false
+}
+],
+"sisId": 0,
+"sourcceId": "0",
+"sourceType": null,
+"studentUse": false,
+"title": "Mr.",
+"userId": 48,
+"userName": "ashish.khatri@synechron.com"
+}
+},
+"errors": [],
+"message": "Login successful",
+"metaData": null
+}
+May 29, 2015 4:24:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+May 29, 2015 4:24:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "sessionId": "t33506145-f292-4df1-9840-f872c8ced0d3", and Actual is-"sessionId": "t0832530c-ec2a-4877-b1c3-3e77f02baed6",
+May 29, 2015 4:24:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+May 29, 2015 4:24:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+May 29, 2015 4:24:07 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC01_VerifyLogin
+INFO: Test Execution End- TC01_VerifyLogin
+May 29, 2015 4:24:07 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC02_PostSections
+INFO: Test Execution Started- TC02_PostSections
+May 29, 2015 4:24:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: start inputJson function
+May 29, 2015 4:24:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: end inputJson function
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Duplicate user found",
+"field": "students[0]"
+},
+"type": "fielderror"
+},
+{
+"data": {
+"message": "Duplicate user found",
+"field": "students[1]"
+},
+"type": "fielderror"
+},
+{
+"data": {
+"message": "Duplicate user found",
+"field": "students[2]"
+},
+"type": "fielderror"
+},
+{
+"data": {
+"message": "Duplicate user found",
+"field": "students[3]"
+},
+"type": "fielderror"
+},
+{
+"data": {
+"message": "Duplicate user found",
+"field": "students[4]"
+},
+"type": "fielderror"
+},
+{
+"data": {
+"message": "Duplicate user found",
+"field": "students[5]"
+},
+"type": "fielderror"
+},
+{
+"data": {
+"message": "Duplicate user found",
+"field": "students[6]"
+},
+"type": "fielderror"
+},
+{
+"data": {
+"message": "Duplicate user found",
+"field": "students[7]"
+},
+"type": "fielderror"
+},
+{
+"data": {
+"message": "Duplicate user found",
+"field": "students[8]"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "code": 200, and Actual is-"code": 400,
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "data": { and Actual is-"data": null,
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "classCode": "K12", and Actual is-"errors": [
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "features": null, and Actual is-{
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "grade": "Grade 4", and Actual is-"data": {
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "grades": null, and Actual is-"message": "Duplicate user found",
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "id": 557, and Actual is-"field": "students[0]"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "levelHigh": null, and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "levelLow": null, and Actual is-"type": "fielderror"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "name": "ClassViaAPI", and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "primaryTeacher": null, and Actual is-{
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "primaryTeacherId": null, and Actual is-"data": {
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "students": [ and Actual is-"message": "Duplicate user found",
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            { and Actual is-"field": "students[1]"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "books": null, and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "collections": null, and Actual is-"type": "fielderror"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "iconCode": null, and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "iconColor": null, and Actual is-{
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "id": "1836", and Actual is-"data": {
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "login": null, and Actual is-"message": "Duplicate user found",
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "name": "Alexandra", and Actual is-"field": "students[2]"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "password": "BIKE", and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "readingGroup": null, and Actual is-"type": "fielderror"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "userName": "alexandra-k12" and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            }, and Actual is-{
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            { and Actual is-"data": {
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "books": null, and Actual is-"message": "Duplicate user found",
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "collections": null, and Actual is-"field": "students[3]"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "iconCode": null, and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "iconColor": null, and Actual is-"type": "fielderror"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "id": "1837", and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "login": null, and Actual is-{
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "name": "Chloe", and Actual is-"data": {
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "password": "BAND", and Actual is-"message": "Duplicate user found",
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "readingGroup": null, and Actual is-"field": "students[4]"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "userName": "chloe-k12" and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            }, and Actual is-"type": "fielderror"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            { and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "books": null, and Actual is-{
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "collections": null, and Actual is-"data": {
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "iconCode": null, and Actual is-"message": "Duplicate user found",
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "iconColor": null, and Actual is-"field": "students[5]"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "id": "1838", and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "login": null, and Actual is-"type": "fielderror"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "name": "Daniel", and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "password": "LION", and Actual is-{
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "readingGroup": null, and Actual is-"data": {
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "userName": "daniel-k12" and Actual is-"message": "Duplicate user found",
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            }, and Actual is-"field": "students[6]"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            { and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "books": null, and Actual is-"type": "fielderror"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "collections": null, and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "iconCode": null, and Actual is-{
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "iconColor": null, and Actual is-"data": {
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "id": "1839", and Actual is-"message": "Duplicate user found",
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "login": null, and Actual is-"field": "students[7]"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "name": "Eric", and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "password": "RAKE", and Actual is-"type": "fielderror"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "readingGroup": null, and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "userName": "eric-k12" and Actual is-{
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            }, and Actual is-"data": {
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            { and Actual is-"message": "Duplicate user found",
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "books": null, and Actual is-"field": "students[8]"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "collections": null, and Actual is-},
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "iconCode": null, and Actual is-"type": "fielderror"
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "iconColor": null, and Actual is-}
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "id": "1840", and Actual is-],
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "login": null, and Actual is-"message": "Data validation error",
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "name": "Ethan", and Actual is-"metaData": null
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                "password": "GIFT", and Actual is-}
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC02_PostSections
+INFO: Test Execution End- TC01_VerifyLogin
+May 29, 2015 4:24:09 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC03_TeacherLogout
+INFO: Test Execution Started- TC03_TeacherLogout
+May 29, 2015 4:24:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+May 29, 2015 4:24:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+May 29, 2015 4:24:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+May 29, 2015 4:24:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+May 29, 2015 4:24:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": null,
+"errors": [],
+"message": "Logout successful",
+"metaData": null
+}
+May 29, 2015 4:24:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+May 29, 2015 4:24:10 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC03_TeacherLogout
+INFO: Test Execution End- TC15_TeacherLogout
+May 29, 2015 4:24:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnDisplayReasult
+INFO: start fnDisplayReasult()
+
+</div>
+</body>
+<script type="text/javascript">
+function showLog(){
+	if(document.getElementById('content').style.display == 'none')
+		document.getElementById('content').style.display = 'block';
+	else
+		document.getElementById('content').style.display = 'none'
+}
+</script>
+</html>

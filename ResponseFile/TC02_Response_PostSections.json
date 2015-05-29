@@ -1,0 +1,129 @@
+{
+    "code": 200,
+    "data": {
+        "classCode": "$$*$$",
+        "features": null,
+        "grade": "Grade 4",
+        "grades": null,
+        "id": $$*$$,
+        "levelHigh": null,
+        "levelLow": null,
+        "name": "ClassViaAPI",
+        "primaryTeacher": null,
+        "primaryTeacherId": null,
+        "students": [
+            {
+                "books": null,
+                "collections": null,
+                "iconCode": null,
+                "iconColor": null,
+                "id": "$$*$$",
+                "login": null,
+                "name": "$$*$$",
+                "password": "$$*$$",
+                "readingGroup": null,
+                "userName": "$$*$$"
+            },
+            {
+                "books": null,
+                "collections": null,
+                "iconCode": null,
+                "iconColor": null,
+                "id": "$$*$$",
+                "login": null,
+                "name": "$$*$$",
+                "password": "$$*$$",
+                "readingGroup": null,
+                "userName": "$$*$$"
+            },
+            {
+                "books": null,
+                "collections": null,
+                "iconCode": null,
+                "iconColor": null,
+                "id": "$$*$$",
+                "login": null,
+                "name": "$$*$$",
+                "password": "$$*$$",
+                "readingGroup": null,
+                "userName": "$$*$$"
+            },
+            {
+                "books": null,
+                "collections": null,
+                "iconCode": null,
+                "iconColor": null,
+                "id": "$$*$$",
+                "login": null,
+                "name": "$$*$$",
+                "password": "$$*$$",
+                "readingGroup": null,
+                "userName": "$$*$$"
+            },
+            {
+                "books": null,
+                "collections": null,
+                "iconCode": null,
+                "iconColor": null,
+                "id": "$$*$$",
+                "login": null,
+                "name": "$$*$$",
+                "password": "$$*$$",
+                "readingGroup": null,
+                "userName": "$$*$$"
+            },
+            {
+                "books": null,
+                "collections": null,
+                "iconCode": null,
+                "iconColor": null,
+                "id": "$$*$$",
+                "login": null,
+                "name": "$$*$$",
+                "password": "$$*$$",
+                "readingGroup": null,
+                "userName": "$$*$$"
+            },
+            {
+                "books": null,
+                "collections": null,
+                "iconCode": null,
+                "iconColor": null,
+                "id": "$$*$$",
+                "login": null,
+                "name": "$$*$$",
+                "password": "$$*$$",
+                "readingGroup": null,
+                "userName": "$$*$$"
+            },
+            {
+                "books": null,
+                "collections": null,
+                "iconCode": null,
+                "iconColor": null,
+                "id": "$$*$$",
+                "login": null,
+                "name": "$$*$$",
+                "password": "$$*$$",
+                "readingGroup": null,
+                "userName": "$$*$$"
+            },
+            {
+                "books": null,
+                "collections": null,
+                "iconCode": null,
+                "iconColor": null,
+                "id": "$$*$$",
+                "login": null,
+                "name": "$$*$$",
+                "password": "$$*$$",
+                "readingGroup": null,
+                "userName": "$$*$$"
+            }
+        ],
+        "teacherType": null
+    },
+    "errors": [],
+    "message": "OK",
+    "metaData": null
+}

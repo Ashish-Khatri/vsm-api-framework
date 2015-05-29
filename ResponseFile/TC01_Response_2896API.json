@@ -1,0 +1,31 @@
+{
+    "code": 200,
+    "data": {
+        "sessionId": "$$*$$",
+        "studentUse": false,
+        "user": {
+            "districtId": 1,
+            "firstName": "Theron",
+            "id": 8,
+            "lastName": "t7",
+            "readingLevel": "Guided Reading Level",
+            "role": "teacher",
+            "schools": [
+                {
+                    "id": 1,
+                    "name": "Jones School"
+                }
+            ],
+            "sisId": 0,
+            "sourcceId": "0",
+            "sourceType": null,
+            "studentUse": false,
+            "title": "Mr.",
+            "userId": 8,
+            "userName": "theron_t7@storiaschool.com"
+        }
+    },
+    "errors": [],
+    "message": "Login successful",
+    "metaData": null
+}

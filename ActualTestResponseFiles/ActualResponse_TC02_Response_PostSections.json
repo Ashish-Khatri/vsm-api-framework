@@ -1,0 +1,129 @@
+{
+"code": 200,
+"data": {
+"classCode": "K36",
+"features": null,
+"grade": "Grade 4",
+"grades": null,
+"id": 559,
+"levelHigh": null,
+"levelLow": null,
+"name": "ClassViaAPI",
+"primaryTeacher": null,
+"primaryTeacherId": null,
+"students": [
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1881",
+"login": null,
+"name": "Jan",
+"password": "GOAT",
+"readingGroup": null,
+"userName": "jan-k36"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1882",
+"login": null,
+"name": "Feb",
+"password": "WISH",
+"readingGroup": null,
+"userName": "feb-k36"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1883",
+"login": null,
+"name": "Mar",
+"password": "RAMP",
+"readingGroup": null,
+"userName": "mar-k36"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1884",
+"login": null,
+"name": "Apr",
+"password": "GIFT",
+"readingGroup": null,
+"userName": "apr-k36"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1885",
+"login": null,
+"name": "May",
+"password": "BABY",
+"readingGroup": null,
+"userName": "may-k36"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1886",
+"login": null,
+"name": "Jun",
+"password": "BAND",
+"readingGroup": null,
+"userName": "jun-k36"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1887",
+"login": null,
+"name": "Jul",
+"password": "CROW",
+"readingGroup": null,
+"userName": "jul-k36"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1888",
+"login": null,
+"name": "Aug",
+"password": "HEAD",
+"readingGroup": null,
+"userName": "aug-k36"
+},
+{
+"books": null,
+"collections": null,
+"iconCode": null,
+"iconColor": null,
+"id": "1889",
+"login": null,
+"name": "Sep",
+"password": "DISH",
+"readingGroup": null,
+"userName": "sep-k36"
+}
+],
+"teacherType": null
+},
+"errors": [],
+"message": "OK",
+"metaData": null
+}

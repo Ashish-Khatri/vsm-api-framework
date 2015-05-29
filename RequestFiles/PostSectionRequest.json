@@ -1,0 +1,33 @@
+{
+    "name": "ClassViaAPI",
+    "grade": "Grade 4",
+    "students": [
+        {
+            "name": "Jan"
+        },
+        {
+            "name": "Feb"
+        },
+        {
+            "name": "Mar"
+        },
+        {
+            "name": "Apr"
+        },
+        {
+            "name": "May"
+        },
+        {
+            "name": "Jun"
+        },
+        {
+            "name": "Jul"
+        },
+        {
+            "name": "Aug"
+        },
+        {
+            "name": "Sep"
+        }
+    ]
+}

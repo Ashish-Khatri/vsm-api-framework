@@ -1,0 +1,196 @@
+May 29, 2015 4:09:26 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: start assignData()
+May 29, 2015 4:09:26 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: end assignData()
+May 29, 2015 4:09:27 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC01_VerifyLogin
+INFO: Test Execution Started- TC01_VerifyLogin
+May 29, 2015 4:09:27 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: start inputJson function
+May 29, 2015 4:09:27 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: end inputJson function
+May 29, 2015 4:09:29 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"sessionId": "t33506145-f292-4df1-9840-f872c8ced0d3",
+"studentUse": true,
+"user": {
+"districtId": 1,
+"firstName": "AShish",
+"id": 48,
+"lastName": "K",
+"readingLevel": "Lexile",
+"role": "teacher",
+"schools": [
+{
+"id": 1,
+"name": "Jones School",
+"sso": false
+}
+],
+"sisId": 0,
+"sourcceId": "0",
+"sourceType": null,
+"studentUse": false,
+"title": "Mr.",
+"userId": 48,
+"userName": "ashish.khatri@synechron.com"
+}
+},
+"errors": [],
+"message": "Login successful",
+"metaData": null
+}
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "studentUse": false, and Actual is-"studentUse": true,
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "firstName": "Theron", and Actual is-"firstName": "AShish",
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "id": 8, and Actual is-"id": 48,
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "lastName": "t7", and Actual is-"lastName": "K",
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "readingLevel": "Guided Reading Level", and Actual is-"readingLevel": "Lexile",
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                    "name": "Jones School" and Actual is-"name": "Jones School",
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                } and Actual is-"sso": false
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            ], and Actual is-}
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "sisId": 0, and Actual is-],
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "sourcceId": "0", and Actual is-"sisId": 0,
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "sourceType": null, and Actual is-"sourcceId": "0",
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "studentUse": false, and Actual is-"sourceType": null,
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "title": "Mr.", and Actual is-"studentUse": false,
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "userId": 8, and Actual is-"title": "Mr.",
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "userName": "theron_t7@storiaschool.com" and Actual is-"userId": 48,
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        } and Actual is-"userName": "ashish.khatri@synechron.com"
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    }, and Actual is-}
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "errors": [], and Actual is-},
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "message": "Login successful", and Actual is-"errors": [],
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "metaData": null and Actual is-"message": "Login successful",
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-} and Actual is-"metaData": null
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC01_VerifyLogin
+INFO: Test Execution End- TC01_VerifyLogin
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC02_PostSections
+INFO: Test Execution Started- TC02_PostSections
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: start inputJson function
+May 29, 2015 4:09:30 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: end inputJson function
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Please enter a unique name for your class.",
+"field": "name"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "code": 200, and Actual is-"code": 400,
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "data": { and Actual is-"data": null,
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "classCode": "K12", and Actual is-"errors": [
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "features": null, and Actual is-{
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "grade": "Grade 4", and Actual is-"data": {
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "grades": null, and Actual is-"message": "Please enter a unique name for your class.",
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "id": 557, and Actual is-"field": "name"
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "levelHigh": null, and Actual is-},
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "levelLow": null, and Actual is-"type": "fielderror"
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "name": "ClassViaAPI", and Actual is-}
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "primaryTeacher": null, and Actual is-],
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "primaryTeacherId": null, and Actual is-"message": "Data validation error",
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "students": [ and Actual is-"metaData": null
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            { and Actual is-}
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC02_PostSections
+INFO: Test Execution End- TC01_VerifyLogin
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC03_TeacherLogout
+INFO: Test Execution Started- TC03_TeacherLogout
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": null,
+"errors": [],
+"message": "Logout successful",
+"metaData": null
+}
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Test_SectionAPIsTest TC03_TeacherLogout
+INFO: Test Execution End- TC15_TeacherLogout
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnDisplayReasult
+INFO: start fnDisplayReasult()
+May 29, 2015 4:09:32 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnDisplayReasult
+INFO: end fnDisplayReasult()

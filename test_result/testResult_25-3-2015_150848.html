@@ -1,0 +1,549 @@
+<html>
+<head>
+	<title>OUP diffs</title>
+	<style media="screen" type="text/css">
+		//#img { height:200px;width:240px;	vertical-align: text-top; }
+		img { height:50%;width:50%;	vertical-align: text-top; align:middle; }
+		.Fail { background-color: red; }
+		.Pass { background-color: darkgreen; }
+		body { font-family: 'Open Sans', sans-serif; }
+		
+	</style>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+</head>
+<body bgcolor=lightgrey>
+
+<h3 align="center">API Test Case Execution Report</h3>
+<h5 align="center">25-3-2015_150848</h5>
+<table border="1" align="center">
+	<tr>
+		<th>Test Suite Name</th>
+		<th>Total No. Of Test Cases</th>
+		<th>Total Pass Test Count</th>
+		<th>Total Fail Test Count</th>	
+		<th>Overall Result</th>			
+	</tr>
+	<tr>
+		<td>org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI</td>
+		<td>8</td>
+		<td>2</td>
+		<td>6</td>	
+		<td class=Fail>Fail</td>
+
+	</tr>
+</table>
+<p></p>
+<table border="1" align="center">
+	<tr>
+		<th>Test Case Name</th>
+		<th>Result</th>		
+	</tr>
+	<tr>
+<td>TC01_GetTeacherSession</td>
+<td class=Fail>Fail</td>
+<tr>
+<tr>
+<td>TC02_VerifyAsTeacherClickonebookstabClickonebookleftmenuClickonAll</td>
+<td class=Fail>Fail</td>
+<tr>
+<tr>
+<td>TC03_VerifyAsTeacherclickonebookstabClickonebookleftmenuClickonAllPutfilterparametershoranintextfieldbelowlabelNarrowMyResults</td>
+<td class=Fail>Fail</td>
+<tr>
+<tr>
+<td>TC04_VerifyAsTeachercreatecollectionandclickcontinue</td>
+<td class=Fail>Fail</td>
+<tr>
+<tr>
+<td>TC05_TeacherLogout</td>
+<td class=Pass>Pass</td>
+<tr>
+<tr>
+<td>TC06_GetStudentSession</td>
+<td class=Fail>Fail</td>
+<tr>
+<tr>
+<td>TC07_VerifyAsStudentCheckBook</td>
+<td class=Fail>Fail</td>
+<tr>
+<tr>
+<td>TC08_StudentLogout</td>
+<td class=Pass>Pass</td>
+<tr>
+
+</table>
+<p></p>
+<button onclick="showLog()">LOG</button>
+<div id="content" style="display: none;">
+  Mar 25, 2015 3:08:48 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: start assignData()
+Mar 25, 2015 3:08:48 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: end assignData()
+Mar 25, 2015 3:08:49 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI
+Mar 25, 2015 3:08:49 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI TC01_GetTeacherSession
+INFO: Test Execution Started- TC01_GetTeacherSession
+Mar 25, 2015 3:08:49 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: start inputJson function
+Mar 25, 2015 3:08:49 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: end inputJson function
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"sessionId": "tb7b25095-fe2e-46ac-a66e-246945eb99d8",
+"studentUse": false,
+"user": {
+"districtId": 1,
+"firstName": "QA",
+"id": 118,
+"lastName": "Auto Test",
+"readingLevel": "Guided Reading Level",
+"role": "teacher",
+"schools": [
+{
+"id": 1,
+"name": "Jones School"
+}
+],
+"sisId": 0,
+"sourcceId": "0",
+"sourceType": null,
+"studentUse": false,
+"title": "Mr.",
+"userId": 118,
+"userName": "qa@test.com"
+}
+},
+"errors": [],
+"message": "Login successful",
+"metaData": null
+}
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "firstName": "kishan", and Actual is-"firstName": "QA",
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "id": 128, and Actual is-"id": 118,
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "lastName": "Kr", and Actual is-"lastName": "Auto Test",
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "readingLevel": "Lexile", and Actual is-"readingLevel": "Guided Reading Level",
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                    "name": "Scholastic Test School" and Actual is-"name": "Jones School"
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "sourcceId": 0, and Actual is-"sourcceId": "0",
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "userId": 128, and Actual is-"userId": 118,
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "userName": "k@test1.com" and Actual is-"userName": "qa@test.com"
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI TC01_GetTeacherSession
+INFO: Test Execution End- TC01_GetTeacherSession
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI
+Mar 25, 2015 3:08:52 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI TC02_VerifyAsTeacherClickonebookstabClickonebookleftmenuClickonAll
+INFO: Test Execution Started- TC02_VerifyAsTeacherClickonebookstabClickonebookleftmenuClickonAll
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "code": 200, and Actual is-"code": 400,
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "data": [ and Actual is-"data": null,
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        { and Actual is-"errors": [
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "authors": [ and Actual is-{
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                { and Actual is-"data": {
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                    "firstName": "Helen", and Actual is-"message": "Invalid section id",
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                    "id": 4601, and Actual is-"field": "sectionId"
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                    "lastName": "Otway" and Actual is-},
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                } and Actual is-"type": "fielderror"
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            ], and Actual is-}
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "closeRead": false, and Actual is-],
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "commoncores": null, and Actual is-"message": "Data validation error",
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "features": null, and Actual is-"metaData": null
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "id": 4718, and Actual is-}
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI TC02_VerifyAsTeacherClickonebookstabClickonebookleftmenuClickonAll
+INFO: Test Execution End- TC02_VerifyAsTeacherClickonebookstabClickonebookleftmenuClickonAll
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI TC03_VerifyAsTeacherclickonebookstabClickonebookleftmenuClickonAllPutfilterparametershoranintextfieldbelowlabelNarrowMyResults
+INFO: Test Execution Started- TC03_VerifyAsTeacherclickonebookstabClickonebookleftmenuClickonAllPutfilterparametershoranintextfieldbelowlabelNarrowMyResults
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "code": 200, and Actual is-"code": 400,
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "data": [ and Actual is-"data": null,
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        { and Actual is-"errors": [
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "authors": [ and Actual is-{
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                { and Actual is-"data": {
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                    "firstName": "Ann E.", and Actual is-"message": "Invalid section id",
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                    "id": 1530, and Actual is-"field": "sectionId"
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                    "lastName": "Burg" and Actual is-},
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                } and Actual is-"type": "fielderror"
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            ], and Actual is-}
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "closeRead": false, and Actual is-],
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "commoncores": null, and Actual is-"message": "Data validation error",
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "features": null, and Actual is-"metaData": null
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "id": 1570, and Actual is-}
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI TC03_VerifyAsTeacherclickonebookstabClickonebookleftmenuClickonAllPutfilterparametershoranintextfieldbelowlabelNarrowMyResults
+INFO: Test Execution End- TC03_VerifyAsTeacherclickonebookstabClickonebookleftmenuClickonAllPutfilterparametershoranintextfieldbelowlabelNarrowMyResults
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI
+Mar 25, 2015 3:08:53 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI TC04_VerifyAsTeachercreatecollectionandclickcontinue
+INFO: Test Execution Started- TC04_VerifyAsTeachercreatecollectionandclickcontinue
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "code": 200, and Actual is-"code": 400,
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "data": [ and Actual is-"data": null,
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        { and Actual is-"errors": [
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "authors": [ and Actual is-{
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                { and Actual is-"data": {
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                    "firstName": "Helen", and Actual is-"message": "Invalid section id",
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                    "id": 4601, and Actual is-"field": "sectionId"
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                    "lastName": "Otway" and Actual is-},
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                } and Actual is-"type": "fielderror"
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            ], and Actual is-}
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "closeRead": false, and Actual is-],
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "commoncores": null, and Actual is-"message": "Data validation error",
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "features": null, and Actual is-"metaData": null
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "id": 4718, and Actual is-}
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI TC04_VerifyAsTeachercreatecollectionandclickcontinue
+INFO: Test Execution End- TC04_VerifyAsTeachercreatecollectionandclickcontinue
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI TC05_TeacherLogout
+INFO: Test Execution Started- TC05_TeacherLogout
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": null,
+"errors": [],
+"message": "Logout successful",
+"metaData": null
+}
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI TC05_TeacherLogout
+INFO: Test Execution End- TC05_TeacherLogout
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI TC06_GetStudentSession
+INFO: Test Execution Started- TC06_GetStudentSession
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: start inputJson function
+Mar 25, 2015 3:08:54 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: end inputJson function
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"sessionId": "s02f166ec-e876-4ef1-b2f5-2c76c0aefdbb",
+"user": {
+"districtId": 1,
+"iconCode": "%",
+"iconColor": "DF1995",
+"id": 1106,
+"login": null,
+"name": "KK_1",
+"role": "student",
+"sourceType": null,
+"tempPassword": false,
+"userName": "kk_1-kr2"
+}
+},
+"errors": [],
+"message": "Login successful",
+"metaData": {
+"sessionLimitLogout": "false"
+}
+}
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "id": 1113, and Actual is-"id": 1106,
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "name": "S_1", and Actual is-"name": "KK_1",
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "tempPassword": false, and Actual is-"sourceType": null,
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "userName": "s_1-kr4" and Actual is-"tempPassword": false,
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        } and Actual is-"userName": "kk_1-kr2"
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    }, and Actual is-}
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "errors": [], and Actual is-},
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "message": "Login successful", and Actual is-"errors": [],
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "metaData": { and Actual is-"message": "Login successful",
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        "sessionLimitLogout": "false" and Actual is-"metaData": {
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    } and Actual is-"sessionLimitLogout": "false"
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI TC06_GetStudentSession
+INFO: Test Execution End- TC06_GetStudentSession
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI
+Mar 25, 2015 3:08:55 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI TC07_VerifyAsStudentCheckBook
+INFO: Test Execution Started- TC07_VerifyAsStudentCheckBook
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "code": 200, and Actual is-"code": 400,
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-    "data": [ and Actual is-"data": null,
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-        { and Actual is-"errors": [
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "authors": [ and Actual is-{
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                { and Actual is-"data": {
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                    "firstName": "Melissa", and Actual is-"message": "Invalid section id",
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                    "id": 399, and Actual is-"field": "sectionId"
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                    "lastName": "Schiller" and Actual is-},
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                } and Actual is-"type": "fielderror"
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            ], and Actual is-}
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "completed": false, and Actual is-],
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "completeTime": null, and Actual is-"message": "Data validation error",
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-            "features": [ and Actual is-"metaData": null
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Error:Expected-                { and Actual is-}
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI TC07_VerifyAsStudentCheckBook
+INFO: Test Execution End- TC07_VerifyAsStudentCheckBook
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI TC08_StudentLogout
+INFO: Test Execution Started- TC08_StudentLogout
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": null,
+"errors": [],
+"message": "Logout successful",
+"metaData": null
+}
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Test_PerformanceTunedEbooksAPI TC08_StudentLogout
+INFO: Test Execution End- TC08_StudentLogout
+Mar 25, 2015 3:08:56 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnDisplayReasult
+INFO: start fnDisplayReasult()
+
+</div>
+</body>
+<script type="text/javascript">
+function showLog(){
+	if(document.getElementById('content').style.display == 'none')
+		document.getElementById('content').style.display = 'block';
+	else
+		document.getElementById('content').style.display = 'none'
+}
+</script>
+</html>

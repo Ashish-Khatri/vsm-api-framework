@@ -1,0 +1,519 @@
+Apr 16, 2015 4:57:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: start assignData()
+Apr 16, 2015 4:57:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common assignData
+INFO: end assignData()
+Apr 16, 2015 4:57:02 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Apr 16, 2015 4:57:02 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC01_VerifyLogin
+INFO: Test Execution Started- TC01_VerifyLogin
+Apr 16, 2015 4:57:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: start inputJson function
+Apr 16, 2015 4:57:02 PM org.apache.maven.archetypes.VSM_API_Framework.Common inputJson
+INFO: end inputJson function
+Apr 16, 2015 4:57:05 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": {
+"sessionId": "t47456c1e-fea4-4b3e-a5ea-901addc51995",
+"studentUse": true,
+"user": {
+"districtId": 1,
+"firstName": "Brian",
+"id": 2,
+"lastName": "Rusnica",
+"readingLevel": "Lexile",
+"role": "teacher",
+"schools": [
+{
+"id": 1,
+"name": "Jones School"
+}
+],
+"sisId": 0,
+"sourcceId": "0",
+"sourceType": null,
+"studentUse": false,
+"title": "Mr.",
+"userId": 2,
+"userName": "brian.rusnica@ingramcontent.com"
+}
+},
+"errors": [],
+"message": "Login successful",
+"metaData": null
+}
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: Start checkData function
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Common checkData
+INFO: End checkData function
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC01_VerifyLogin
+INFO: Test Execution End- TC01_VerifyLogin
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC02_VerifyCollectionWhenClickOnEbooksforAutoTestclasswithPreKCollections
+INFO: Test Execution Started- TC02_VerifyCollectionWhenClickOnEbooksforAutoTestclasswithPreKCollections
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC02_VerifyCollectionWhenClickOnEbooksforAutoTestclasswithPreKCollections
+INFO: Test Execution End- TC02_VerifyCollectionWhenClickOnEbooksforAutoTestclasswithPreKCollections
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Apr 16, 2015 4:57:06 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC03_VerifyCollectionWhenClickOnAll
+INFO: Test Execution Started- TC03_VerifyCollectionWhenClickOnAll
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC03_VerifyCollectionWhenClickOnAll
+INFO: Test Execution End- TC03_VerifyCollectionWhenClickOnAll
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC04_VerifyCollectionWhenClickOnShared
+INFO: Test Execution Started- TC04_VerifyCollectionWhenClickOnShared
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC04_VerifyCollectionWhenClickOnShared
+INFO: Test Execution End- TC04_VerifyCollectionWhenClickOnShared
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Apr 16, 2015 4:57:07 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC05_VerifyCollectionWhenClickOnMyCollections
+INFO: Test Execution Started- TC05_VerifyCollectionWhenClickOnMyCollections
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC05_VerifyCollectionWhenClickOnMyCollections
+INFO: Test Execution End- TC05_VerifyCollectionWhenClickOnMyCollections
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC06_VerifyCollectionWhenClickOncustomcollectionCC1sharedwithentireclass
+INFO: Test Execution Started- TC06_VerifyCollectionWhenClickOncustomcollectionCC1sharedwithentireclass
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC06_VerifyCollectionWhenClickOncustomcollectionCC1sharedwithentireclass
+INFO: Test Execution End- TC06_VerifyCollectionWhenClickOncustomcollectionCC1sharedwithentireclass
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Apr 16, 2015 4:57:08 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC07_VerifyCollectionWhenClickoncustomcollectionCC2sharedwithindividual
+INFO: Test Execution Started- TC07_VerifyCollectionWhenClickoncustomcollectionCC2sharedwithindividual
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC07_VerifyCollectionWhenClickoncustomcollectionCC2sharedwithindividual
+INFO: Test Execution End- TC07_VerifyCollectionWhenClickoncustomcollectionCC2sharedwithindividual
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC08_VerifyCollectionWhenClickonCC3notsharedwithanyonebuthavingbooks
+INFO: Test Execution Started- TC08_VerifyCollectionWhenClickonCC3notsharedwithanyonebuthavingbooks
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC08_VerifyCollectionWhenClickonCC3notsharedwithanyonebuthavingbooks
+INFO: Test Execution End- TC08_VerifyCollectionWhenClickonCC3notsharedwithanyonebuthavingbooks
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Apr 16, 2015 4:57:09 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC09_VerifyCollectionWhenClickonCC4notsharedwithanyonehavingzerobooks
+INFO: Test Execution Started- TC09_VerifyCollectionWhenClickonCC4notsharedwithanyonehavingzerobooks
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC09_VerifyCollectionWhenClickonCC4notsharedwithanyonehavingzerobooks
+INFO: Test Execution End- TC09_VerifyCollectionWhenClickonCC4notsharedwithanyonehavingzerobooks
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC10_VerifyCollectionWhenClickonClickonCC5sharedwithgroup
+INFO: Test Execution Started- TC10_VerifyCollectionWhenClickonClickonCC5sharedwithgroup
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC10_VerifyCollectionWhenClickonClickonCC5sharedwithgroup
+INFO: Test Execution End- TC10_VerifyCollectionWhenClickonClickonCC5sharedwithgroup
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC11_VerifyCollectionWhenClickonpreexistingcollectionnotsharedwithanyone
+INFO: Test Execution Started- TC11_VerifyCollectionWhenClickonpreexistingcollectionnotsharedwithanyone
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC11_VerifyCollectionWhenClickonpreexistingcollectionnotsharedwithanyone
+INFO: Test Execution End- TC11_VerifyCollectionWhenClickonpreexistingcollectionnotsharedwithanyone
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Apr 16, 2015 4:57:10 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC12_VerifyCollectionWhenClickonpreexistingcollectionsharedwithgroup
+INFO: Test Execution Started- TC12_VerifyCollectionWhenClickonpreexistingcollectionsharedwithgroup
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC12_VerifyCollectionWhenClickonpreexistingcollectionsharedwithgroup
+INFO: Test Execution End- TC12_VerifyCollectionWhenClickonpreexistingcollectionsharedwithgroup
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC13_VerifyCollectionWhenClickonpreexistingcollectionsharedwithindividual
+INFO: Test Execution Started- TC13_VerifyCollectionWhenClickonpreexistingcollectionsharedwithindividual
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC13_VerifyCollectionWhenClickonpreexistingcollectionsharedwithindividual
+INFO: Test Execution End- TC13_VerifyCollectionWhenClickonpreexistingcollectionsharedwithindividual
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Apr 16, 2015 4:57:11 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC14_VerifyCollectionWhenClickonpreexistingcollectionsharedwithentireclass
+INFO: Test Execution Started- TC14_VerifyCollectionWhenClickonpreexistingcollectionsharedwithentireclass
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 400,
+"data": null,
+"errors": [
+{
+"data": {
+"message": "Invalid section id",
+"field": "sectionId"
+},
+"type": "fielderror"
+}
+],
+"message": "Data validation error",
+"metaData": null
+}
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC14_VerifyCollectionWhenClickonpreexistingcollectionsharedwithentireclass
+INFO: Test Execution End- TC14_VerifyCollectionWhenClickonpreexistingcollectionsharedwithentireclass
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API <init>
+INFO: Test Suite to execute -class org.apache.maven.archetypes.VSM_API_Framework.Test_2896API
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC15_TeacherLogout
+INFO: Test Execution Started- TC15_TeacherLogout
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Start fnCompaireJsonResponse function
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: Start formatJson function
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Common formatJson
+INFO: End formatJson function
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: Formated Actual Response:- 
+
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: {
+"code": 200,
+"data": null,
+"errors": [],
+"message": "Logout successful",
+"metaData": null
+}
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnCompaireJsonResponse
+INFO: End fnCompaireJsonResponse function
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Test_2896API TC15_TeacherLogout
+INFO: Test Execution End- TC15_TeacherLogout
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnDisplayReasult
+INFO: start fnDisplayReasult()
+Apr 16, 2015 4:57:12 PM org.apache.maven.archetypes.VSM_API_Framework.Common fnDisplayReasult
+INFO: end fnDisplayReasult()
